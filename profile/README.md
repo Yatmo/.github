@@ -37,18 +37,18 @@ Countries: Albania, Australia, Austria, Belgium, Bosnia and Herzegovina, Bulgari
 |---|---|---|
 | **Any website** | One iframe: map, summary, scores, isochrones, routes, configured by URL parameters | [Iframe plugin](https://documentation.yatmo.com/plugins/iframe) |
 | **JavaScript** | Map, summary table and summary text as script tags with one config object; listing search on the map | [JavaScript plugins](https://documentation.yatmo.com/plugins/js-map) |
-| **WordPress** | Blocks and shortcodes for the map and the indexable neighbourhood text | [wordpress.org/plugins/yatmo-map](https://wordpress.org/plugins/yatmo-map/) · [docs](https://documentation.yatmo.com/plugins/wordpress-map) |
+| **WordPress** | Blocks and shortcodes for the map and the indexable neighbourhood text | [wordpress.org/plugins/yatmo-map](https://wordpress.org/plugins/yatmo-map/) · [Yatmo/yatmo-plugin-wordpress](https://github.com/Yatmo/yatmo-plugin-wordpress) |
 | **Odoo 17 to 20** | Website building blocks and QWeb templates for the map and the indexable text | [apps.odoo.com](https://apps.odoo.com/apps/modules/20.0/yatmo_map) · [Yatmo/yatmo-plugin-odoo](https://github.com/Yatmo/yatmo-plugin-odoo) |
 | **iOS** | Swift package, MapLibre Native | [Yatmo/yatmo-sdk-ios](https://github.com/Yatmo/yatmo-sdk-ios) |
 | **Android** | Kotlin, XML views and Jetpack Compose, MapLibre | [Yatmo/yatmo-sdk-android](https://github.com/Yatmo/yatmo-sdk-android) |
 | **React Native** | `@yatmo/react-native`, TypeScript | [Yatmo/yatmo-sdk-react-native](https://github.com/Yatmo/yatmo-sdk-react-native) |
 | **Flutter** | `yatmo_sdk` on pub.dev | [Yatmo/yatmo-sdk-flutter](https://github.com/Yatmo/yatmo-sdk-flutter) |
-| **AI assistants and agents** | MCP server: location summary, nearby POIs, nearest by category, accessibility profile | [MCP documentation](https://documentation.yatmo.com/mcp) |
+| **AI assistants and agents** | MCP server: location summary, nearby POIs, nearest by category, accessibility profile | [Yatmo/yatmo-mcp](https://github.com/Yatmo/yatmo-mcp) · [docs](https://documentation.yatmo.com/mcp) |
 | **Your own backend** | REST API: summary, listing enrichment, points, isochrones, geocoding, routes, static map images | [API documentation](https://documentation.yatmo.com/api) |
 
 ## Quick start
 
-A Yatmo licence key is required: [get one](https://yatmo.com). The documentation pages embed live examples.
+A Yatmo licence key is required: [get one](https://yatmo.com). The documentation pages embed live examples, and [Yatmo/yatmo-examples](https://github.com/Yatmo/yatmo-examples) holds ready-to-run pages: iframe, JavaScript map, neighbourhood text, a complete property page, search by travel time, REST API.
 
 **Iframe**, the smallest integration:
 
