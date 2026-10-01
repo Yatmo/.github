@@ -37,6 +37,7 @@ Countries: Albania, Australia, Austria, Belgium, Bosnia and Herzegovina, Bulgari
 |---|---|---|
 | **Any website** | One iframe: map, summary, scores, isochrones, routes, configured by URL parameters | [Iframe plugin](https://documentation.yatmo.com/plugins/iframe) |
 | **JavaScript** | Map, summary table and summary text as script tags with one config object; listing search on the map | [JavaScript plugins](https://documentation.yatmo.com/plugins/js-map) |
+| **npm (Node, TypeScript)** | `@yatmo/sdk`: typed API client for servers and edge (text as HTML, summaries, POIs, isochrones, routes, geocoding); `@yatmo/maps`: the browser plugins from npm | [Yatmo/yatmo-sdk-js](https://github.com/Yatmo/yatmo-sdk-js) · [@yatmo/sdk](https://www.npmjs.com/package/@yatmo/sdk) · [@yatmo/maps](https://www.npmjs.com/package/@yatmo/maps) |
 | **WordPress** | Blocks and shortcodes for the map and the indexable neighbourhood text | [wordpress.org/plugins/yatmo-map](https://wordpress.org/plugins/yatmo-map/) · [Yatmo/yatmo-plugin-wordpress](https://github.com/Yatmo/yatmo-plugin-wordpress) |
 | **Odoo 17 to 20** | Website building blocks and QWeb templates for the map and the indexable text | [apps.odoo.com](https://apps.odoo.com/apps/modules/20.0/yatmo_map) · [Yatmo/yatmo-plugin-odoo](https://github.com/Yatmo/yatmo-plugin-odoo) |
 | **iOS** | Swift package, MapLibre Native | [Yatmo/yatmo-sdk-ios](https://github.com/Yatmo/yatmo-sdk-ios) |
