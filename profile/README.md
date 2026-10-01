@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://yatmo.com"><img src="profile/img/logo.png" width="96" alt="Yatmo"></a>
+  <a href="https://yatmo.com"><img src="https://raw.githubusercontent.com/Yatmo/.github/main/profile/img/logo.png" width="96" alt="Yatmo"></a>
 </p>
 
 <h1 align="center">Neighbourhood intelligence for real estate</h1>
@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  <img src="profile/img/map-and-summary.png" width="800" alt="Yatmo map with points of interest, travel times and the neighbourhood summary on a property page">
+  <img src="https://raw.githubusercontent.com/Yatmo/.github/main/profile/img/map-and-summary.png" width="800" alt="Yatmo map with points of interest, travel times and the neighbourhood summary on a property page">
 </p>
 
 ## What a property page gets
@@ -99,14 +99,14 @@ curl -H 'LicenseKey: YOUR_KEY' \
 ## In the editor and on the phone
 
 <p align="center">
-  <img src="profile/img/neighbourhood-text.png" width="800" alt="The neighbourhood text, indexable by search engines, on a property page">
+  <img src="https://raw.githubusercontent.com/Yatmo/.github/main/profile/img/neighbourhood-text.png" width="800" alt="The neighbourhood text, indexable by search engines, on a property page">
 </p>
 <p align="center">
-  <img src="profile/img/odoo-builder.png" width="800" alt="The Yatmo Map block and its options in the Odoo website builder">
+  <img src="https://raw.githubusercontent.com/Yatmo/.github/main/profile/img/odoo-builder.png" width="800" alt="The Yatmo Map block and its options in the Odoo website builder">
 </p>
 <p align="center">
-  <img src="profile/img/mobile-ios.png" width="240" alt="Yatmo map in a demo iOS app">
-  <img src="profile/img/mobile-android.png" width="240" alt="Yatmo map in a demo Android app">
+  <img src="https://raw.githubusercontent.com/Yatmo/.github/main/profile/img/mobile-ios.png" width="240" alt="Yatmo map in a demo iOS app">
+  <img src="https://raw.githubusercontent.com/Yatmo/.github/main/profile/img/mobile-android.png" width="240" alt="Yatmo map in a demo Android app">
 </p>
 
 ## About
