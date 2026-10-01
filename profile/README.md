@@ -37,7 +37,9 @@ Countries: Albania, Australia, Austria, Belgium, Bosnia and Herzegovina, Bulgari
 |---|---|---|
 | **Any website** | One iframe: map, summary, scores, isochrones, routes, configured by URL parameters | [Iframe plugin](https://documentation.yatmo.com/plugins/iframe) |
 | **JavaScript** | Map, summary table and summary text as script tags with one config object; listing search on the map | [JavaScript plugins](https://documentation.yatmo.com/plugins/js-map) |
-| **npm (Node, TypeScript)** | `@yatmo/sdk`: typed API client for servers and edge (text as HTML, summaries, POIs, isochrones, routes, geocoding); `@yatmo/maps`: the browser plugins from npm | [Yatmo/yatmo-sdk-js](https://github.com/Yatmo/yatmo-sdk-js) · [@yatmo/sdk](https://www.npmjs.com/package/@yatmo/sdk) · [@yatmo/maps](https://www.npmjs.com/package/@yatmo/maps) |
+| **Any site, no framework** | `@yatmo/elements`: `<yatmo-map>`, `<yatmo-pois>`, `<yatmo-text>` web components, one script from a CDN (Webflow, Drupal, Laravel, static HTML) | [@yatmo/elements](https://www.npmjs.com/package/@yatmo/elements) · [Yatmo/yatmo-sdk-js](https://github.com/Yatmo/yatmo-sdk-js) |
+| **React, Next.js, Remix** | `@yatmo/react`: `YatmoMap`, `YatmoPois`, `YatmoNeighbourhoodText` components and hooks, server rendering for indexable text | [@yatmo/react](https://www.npmjs.com/package/@yatmo/react) · [demo](https://github.com/Yatmo/yatmo-examples/tree/main/09-react) |
+| **npm (Node, TypeScript)** | `@yatmo/sdk`: typed API client for servers and edge (text as HTML, summaries, POIs, isochrones, routes, geocoding); `@yatmo/maps`: the browser plugins from npm | [@yatmo/sdk](https://www.npmjs.com/package/@yatmo/sdk) · [@yatmo/maps](https://www.npmjs.com/package/@yatmo/maps) · [Yatmo/yatmo-sdk-js](https://github.com/Yatmo/yatmo-sdk-js) |
 | **WordPress** | Blocks and shortcodes for the map and the indexable neighbourhood text | [wordpress.org/plugins/yatmo-map](https://wordpress.org/plugins/yatmo-map/) · [Yatmo/yatmo-plugin-wordpress](https://github.com/Yatmo/yatmo-plugin-wordpress) |
 | **Odoo 17 to 20** | Website building blocks and QWeb templates for the map and the indexable text | [apps.odoo.com](https://apps.odoo.com/apps/modules/20.0/yatmo_map) · [Yatmo/yatmo-plugin-odoo](https://github.com/Yatmo/yatmo-plugin-odoo) |
 | **iOS** | Swift package, MapLibre Native | [Yatmo/yatmo-sdk-ios](https://github.com/Yatmo/yatmo-sdk-ios) |
@@ -50,6 +52,14 @@ Countries: Albania, Australia, Austria, Belgium, Bosnia and Herzegovina, Bulgari
 ## Quick start
 
 A Yatmo licence key is required: [get one](https://yatmo.com). The documentation pages embed live examples, and [Yatmo/yatmo-examples](https://github.com/Yatmo/yatmo-examples) holds ready-to-run pages: iframe, JavaScript map, neighbourhood text, a complete property page, search by travel time, REST API.
+
+**One HTML element**, no framework and no build step:
+
+```html
+<script type="module" src="https://cdn.jsdelivr.net/npm/@yatmo/elements@1/dist/yatmo-elements.js"></script>
+<yatmo-config key="YOUR_FRONTEND_KEY" country="BE" language="FR"></yatmo-config>
+<yatmo-map latitude="50.8461" longitude="4.3664" marker="circle" isochrone="right"></yatmo-map>
+```
 
 **Iframe**, the smallest integration:
 
