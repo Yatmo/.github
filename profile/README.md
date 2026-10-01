@@ -49,7 +49,8 @@ Countries: Albania, Australia, Austria, Belgium, Bosnia and Herzegovina, Bulgari
 | **React Native** | `@yatmo/react-native`, TypeScript | [Yatmo/yatmo-sdk-react-native](https://github.com/Yatmo/yatmo-sdk-react-native) |
 | **Flutter** | `yatmo_sdk` on pub.dev | [Yatmo/yatmo-sdk-flutter](https://github.com/Yatmo/yatmo-sdk-flutter) |
 | **AI assistants and agents** | MCP server: location summary, nearby POIs, nearest by category, accessibility profile | [Yatmo/yatmo-mcp](https://github.com/Yatmo/yatmo-mcp) · [docs](https://documentation.yatmo.com/mcp) |
-| **PHP, Laravel, Symfony** | `yatmo/yatmo-php` on Packagist: typed API client, neighbourhood text as HTML for SEO, nearest places with travel times, scores, isochrones, routes, geocoding, static maps | [Yatmo/yatmo-php](https://github.com/Yatmo/yatmo-php) |
+| **Laravel 10 to 13** | `yatmo/laravel` on Packagist: `<x-yatmo-map>`, `<x-yatmo-pois>`, `<x-yatmo-text>` Blade components, keys in `.env`, `Yatmo` facade, cached server-rendered text for SEO, demo listing site | [Yatmo/yatmo-laravel](https://github.com/Yatmo/yatmo-laravel) |
+| **PHP, Symfony, any framework** | `yatmo/yatmo-php` on Packagist: typed API client, neighbourhood text as HTML for SEO, nearest places with travel times, scores, isochrones, routes, geocoding, static maps | [Yatmo/yatmo-php](https://github.com/Yatmo/yatmo-php) |
 | **Your own backend** | REST API: summary, listing enrichment, points, isochrones, geocoding, routes, static map images | [API documentation](https://documentation.yatmo.com/api) |
 
 ## Quick start
