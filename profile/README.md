@@ -58,7 +58,7 @@ Countries: Albania, Australia, Austria, Belgium, Bosnia and Herzegovina, Bulgari
 | **Python** | `yatmo` on PyPI: typed client, neighbourhood text as HTML, nearest places with travel times, scores, isochrones, routes, geocoding, static maps; zero dependency (Django, Flask, FastAPI, notebooks) | [pypi.org/project/yatmo](https://pypi.org/project/yatmo/) · [Yatmo/yatmo-python](https://github.com/Yatmo/yatmo-python) |
 | **.NET** | `Yatmo.Client` on NuGet: the same async client for ASP.NET Core, Blazor and Azure Functions (.NET Standard 2.0, .NET 8) | [nuget.org/packages/Yatmo.Client](https://www.nuget.org/packages/Yatmo.Client) · [Yatmo/yatmo-dotnet](https://github.com/Yatmo/yatmo-dotnet) |
 | **PHP, Symfony, any framework** | `yatmo/yatmo-php` on Packagist: typed API client, neighbourhood text as HTML for SEO, nearest places with travel times, scores, isochrones, routes, geocoding, static maps | [Yatmo/yatmo-php](https://github.com/Yatmo/yatmo-php) |
-| **Your own backend** | REST API: summary, listing enrichment, points, isochrones, geocoding, routes, static map images | [API documentation](https://documentation.yatmo.com/api) |
+| **Your own backend** | REST API: summary, neighbourhood text, scores, listing enrichment, points, isochrones, geocoding, routes, static map images; OpenAPI 3.1 description and a Postman collection | [API documentation](https://documentation.yatmo.com/api) · [openapi.yaml](https://documentation.yatmo.com/openapi.yaml) · [Postman](https://github.com/Yatmo/yatmo-examples/tree/main/postman) |
 
 ## Quick start
 
